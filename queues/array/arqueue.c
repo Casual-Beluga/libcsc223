@@ -24,3 +24,8 @@ int arq_front(Queue* queue) {
     }
     return queue->items[queue->front];
 }
+
+void arq_append(listtype listname, datatype val){
+  for (int i=0; listname[i] != NULL; i++){}
+  listname[i] = val;
+}
